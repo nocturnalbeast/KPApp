@@ -40,7 +40,7 @@ public class CGStartActivity extends AppCompatActivity {
                         // your operation with code...
                         for(int i=0; i<selected.length; i++) {
                             if(selected[i]) {
-                                Log.i("TAG", i + " : "+ all_courses.get(i));
+                                Log.i("TAG",all_courses.get(i));
                             }
                         }
 
@@ -66,7 +66,7 @@ public class CGStartActivity extends AppCompatActivity {
                         // your operation with code...
                         for(int i=0; i<selected.length; i++) {
                             if(selected[i]) {
-                                Log.i("TAG", i + " : "+ skills.get(i));
+                                Log.i("TAG",skills.get(i));
                             }
                         }
 
@@ -89,7 +89,7 @@ public class CGStartActivity extends AppCompatActivity {
                         // your operation with code...
                         for(int i=0; i<selected.length; i++) {
                             if(selected[i]) {
-                                Log.i("TAG", i + " : "+ interests.get(i));
+                                Log.i("TAG",interests.get(i));
                             }
                         }
 
@@ -112,7 +112,7 @@ public class CGStartActivity extends AppCompatActivity {
                         // your operation with code...
                         for(int i=0; i<selected.length; i++) {
                             if(selected[i]) {
-                                Log.i("TAG", i + " : "+ project_field.get(i));
+                                Log.i("TAG",project_field.get(i));
                             }
                         }
 
