@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">KPApp3</string>
+
+    <string name="login_string">Enter your details to login:</string>
+    <string name="register_string">Enter your details to sign up:</string>
+    <string name="contact_string">Use the e-mail form below to contact us:</string>
+    <string name="pt_string">Select the field you\'re interested in:</string>
+
+    <string name="map_api_key">AIzaSyCJol26ctbTxjzfvRyHsGhsF0ygXqDqIY4</string>
+
+    <string name="hide_pwd">Hide Password</string>
+    <string name="show_pwd">Show Password</string>
+
+    <string name="all_select">All selected</string>
+    <string name="none_select">None selected</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="tv_usr_name">Email Address:</string>
+    <string name="tv_usr_pass">Password:</string>
+    <string name="tv_to_addresses">To: (use \';\' to separate addresses)</string>
+    <string name="tv_text_content">Content:</string>
+    <string name="btn_send">Send</string>
+    <string name="tv_subject">Subject:</string>
+    <string name="tv_sending_mail">Sending mail…</string>
+
+    <string name="qual_string">Select your qualification(Please choose only one):</string>
+    <string name="skill_string">Select the skills that you possess:</string>
+    <string name="interest_string">Select your field(s) of interest:</string>
+    <string name="project_field_string">Select the field your project belongs to:</string>
+
+
+    <string name="field_it">Information Technology</string>
+    <string name="field_accounts">Accounting</string>
+    <string name="field_teach">Teaching</string>
+    <string name="field_literature">Literature</string>
+    <string name="field_farming">Agriculture</string>
+
+    <string name="ug_string">Undergraduate courses</string>
+    <string name="gpg_string">Graduate and Postgraduate courses</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

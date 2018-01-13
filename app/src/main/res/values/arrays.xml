@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="farming_companies">
+        <item>Farm Managers</item>
+        <item>Agronomist</item>
+        <item>Field Scientist</item>
+        <item>Farming</item>
+        <item>shit</item>
+    </string-array>
+
+    <string-array name="it_companies">
+        <item>Infosys</item>
+        <item>Wipro</item>
+        <item>TCS</item>
+        <item>UST Global</item>
+        <item>Accenture</item>
+    </string-array>
+
+    <string-array name="teaching_companies">
+        <item>Google</item>
+        <item>my</item>
+        <item>as</item>
+        <item>an</item>
+        <item>am</item>
+    </string-array>
+
+    <string-array name="accounting_companies">
+        <item>Charted Accountant</item>
+        <item>SHIT</item>
+        <item>Shit</item>
+        <item>ShIt</item>
+        <item>sheeeeeeeet</item>
+    </string-array>
+
+    <string-array name="literature_companies">
+        <item>Journalism</item>
+        <item>Lexicographer</item>
+        <item>Digital Copywriter</item>
+        <item>Publishing Careers</item>
+        <item>Teaching Careers</item>
+    </string-array>
+
+    <string-array name="interests">
+        <item>Reading &amp; Writing</item>
+        <item>Gaming</item>
+        <item>Technology</item>
+        <item>Internet of Things</item>
+        <item>Nature &amp; Environmental Protection</item>
+        <item>Maths &amp; Problem Solving</item>
+        <item>Learning &amp; Education</item>
+    </string-array>
+
+    <string-array name="skills">
+        <item>Object Orient Development</item>
+        <item>UI/UX Design</item>
+        <item>Problem Solving</item>
+        <item>Internet of Things</item>
+        <item>Web Development</item>
+        <item>Cyber Security</item>
+        <item>Version Control Systems</item>
+        <item>Mobile Application Development</item>
+        <item>Game Development</item>
+        <item>Machine Learning</item>
+    </string-array>
+
+    <string-array name="project_field">
+        <item>Hardware &amp; IoT</item>
+        <item>Web Application</item>
+        <item>Mobile Application Development</item>
+        <item>Cyber Security &amp; Privacy</item>
+        <item>Mass Auditing</item>
+        <item>Mass Survey</item>
+        <item>Literary Review</item>
+        <item>Enviromental Analysis</item>
+        <item>Soil Profiling</item>
+    </string-array>
+
+    <string-array name="ug_courses">
+        <item>B.Tech</item>
+        <item>B.Arch</item>
+        <item>B.Com</item>
+        <item>BBA</item>
+        <item>BCA</item>
+        <item>BA(Eng.)</item>
+        <item>B.Ed</item>
+    </string-array>
+
+    <string-array name="gpg_courses">
+        <item>M.Tech</item>
+        <item>M.Arch</item>
+        <item>M.Com</item>
+        <item>MBA</item>
+        <item>MCA</item>
+        <item>MA(Eng.)</item>
+        <item>M.Ed</item>
+    </string-array>
+
+</resources>
