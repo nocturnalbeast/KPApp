@@ -3,9 +3,12 @@ package com.nocturnalbeast.kpapp3;
 import java.io.IOException;
 import java.util.Date;
 import java.util.Properties;
+
+import javax.activation.CommandMap;
 import javax.activation.DataHandler;
 import javax.activation.DataSource;
 import javax.activation.FileDataSource;
+import javax.activation.MailcapCommandMap;
 import javax.mail.BodyPart;
 import javax.mail.PasswordAuthentication;
 import javax.mail.Session;
@@ -33,6 +36,17 @@ public class MailSender {
     private String mailText = null;
     private String mailSubject =  null;
     private String[] toAdresses;
+
+    static {
+        // add handlers for main MIME types
+        MailcapCommandMap mcap = new MailcapCommandMap();
+        mcap.addMailcap("text/plain;; x-java-content-handler=com.sun.mail.handlers.text_plain");
+        mcap.addMailcap("text/html;; x-java-content-handler=com.sun.mail.handlers.text_html");
+        mcap.addMailcap("text/xml;; x-java-content-handler=com.sun.mail.handlers.text_xml");
+        mcap.addMailcap("multipart/*;; x-java-content-handler=com.sun.mail.handlers.multipart_mixed; x-java-fallback-entry=true");
+        mcap.addMailcap("message/rfc822;; x-java-content-handler=com.sun.mail.handlers.message_rfc822");
+        CommandMap.setDefaultCommandMap(mcap);
+    }
 
     public MailSender() {
         mailText = "";
@@ -93,26 +107,34 @@ public class MailSender {
     }
 
     public void send() throws Exception {
-        MimeMessage emailMsg = new MimeMessage(Session.getInstance(emailProperties, new MailAuthenticator()));
-        emailMsg.setFrom(new InternetAddress(usermail));
+        try
+        {
+            MimeMessage emailMsg = new MimeMessage(Session.getInstance(emailProperties, new MailAuthenticator()));
+            emailMsg.setFrom(new InternetAddress(usermail));
 
-        emailProperties.put("mail.debug", "true");
+            emailProperties.put("mail.debug", "true");
 
-        int toAddressesLenght = toAdresses.length;
-        InternetAddress[] addressTo = new InternetAddress[toAddressesLenght];
-        for (int i = 0; i < toAddressesLenght; ++i)
-            addressTo[i] = new InternetAddress(toAdresses[i]);
-        emailMsg.setRecipients(MimeMessage.RecipientType.TO, addressTo);
-        emailMsg.setSentDate(new Date());
-        emailMsg.setSubject(mailSubject);
+            int toAddressesLenght = toAdresses.length;
+            InternetAddress[] addressTo = new InternetAddress[toAddressesLenght];
+            for (int i = 0; i < toAddressesLenght; ++i)
+                addressTo[i] = new InternetAddress(toAdresses[i]);
+            emailMsg.setRecipients(MimeMessage.RecipientType.TO, addressTo);
+            emailMsg.setSentDate(new Date());
+            emailMsg.setSubject(mailSubject);
 
-        BodyPart mailBodyPart = new MimeBodyPart();
-        mailBodyPart.setText(mailText);
+            BodyPart mailBodyPart = new MimeBodyPart();
+            mailBodyPart.setText(mailText);
 
-        mailBody.addBodyPart(mailBodyPart);
-        emailMsg.setContent(mailBody);
+            mailBody.addBodyPart(mailBodyPart);
+            emailMsg.setContent(mailBody);
 
-        Transport.send(emailMsg);
+            Transport.send(emailMsg);
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
+        }
+
     }
 
     public MailSender setCredentials(String usr, String pwd) {

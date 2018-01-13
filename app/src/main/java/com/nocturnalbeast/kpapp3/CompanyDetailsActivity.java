@@ -2,6 +2,7 @@ package com.nocturnalbeast.kpapp3;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -26,8 +27,9 @@ import com.sothree.slidinguppanel.SlidingUpPanelLayout;
 public class CompanyDetailsActivity extends AppCompatActivity implements OnMapReadyCallback{
 
     Bundle getData;
-    String company_name;
-    TextView company_view;
+    String company_name,link;
+    TextView company_name_view,company_deets_view;
+    Button apt_button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,9 +39,36 @@ public class CompanyDetailsActivity extends AppCompatActivity implements OnMapRe
         final Intent getIntentStuff = getIntent();
         getData = getIntentStuff.getExtras();
         company_name = getData.getString("company_name");
+        company_name_view = (TextView)findViewById(R.id.company_name_tv);
+        company_name_view.setText(company_name);
+
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
+        //setting for aptitude tests and button click.
+        apt_button = (Button)findViewById(R.id.btn_aptitude);
+        apt_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (company_name.equals("Infosys"))
+                    link = "http://drive.google.com";
+                else if(company_name.equals("Wipro"))
+                    link = "http://drive.google.com";
+                else
+                    link = "http://drive.google.com";
+                Intent aptIntent = new Intent(Intent.ACTION_VIEW);
+                aptIntent.setData(Uri.parse(link));
+                startActivity(aptIntent);
+            }
+        });
+        //setting company name and details
+        company_deets_view = (TextView)findViewById(R.id.company_deets_tv);
+        if (company_name.equals("Infosys"))
+            company_deets_view.setText("blah blah");
+        else if(company_name.equals("Wipro"))
+            company_deets_view.setText("blah blah");
+        else
+            company_deets_view.setText("INVALID.");
 
     }
     @Override

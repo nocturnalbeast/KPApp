@@ -2,6 +2,7 @@ package com.nocturnalbeast.kpapp3;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.widget.ArrayAdapter;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -18,12 +19,12 @@ public class CGStartActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cgstart);
 
-        ArrayList<String> skills = new ArrayList(Arrays.asList(getResources().getStringArray(R.array.skills)));
-        ArrayList<String> project_field = new ArrayList(Arrays.asList(getResources().getStringArray(R.array.project_field)));
-        ArrayList<String> interests = new ArrayList(Arrays.asList(getResources().getStringArray(R.array.interests)));
-        ArrayList<String> ug_courses = new ArrayList(Arrays.asList(getResources().getStringArray(R.array.ug_courses)));
-        ArrayList<String> gpg_courses = new ArrayList(Arrays.asList(getResources().getStringArray(R.array.gpg_courses)));
-
+        final ArrayList<String> skills = new ArrayList(Arrays.asList(getResources().getStringArray(R.array.skills)));
+        final ArrayList<String> project_field = new ArrayList(Arrays.asList(getResources().getStringArray(R.array.project_field)));
+        final ArrayList<String> interests = new ArrayList(Arrays.asList(getResources().getStringArray(R.array.interests)));
+        final ArrayList<String> ug_courses = new ArrayList(Arrays.asList(getResources().getStringArray(R.array.ug_courses)));
+        final ArrayList<String> gpg_courses = new ArrayList(Arrays.asList(getResources().getStringArray(R.array.gpg_courses)));
+        final ArrayList<String> all_courses = new ArrayList(Arrays.asList(getResources().getStringArray(R.array.all_courses)));
 
         ExpandableMultiSelectSpinner qual_spinner = (ExpandableMultiSelectSpinner) findViewById(R.id.qual_spinner);
         LinkedHashMap<String, List<String>> qualifications =  new LinkedHashMap<>();
@@ -31,13 +32,21 @@ public class CGStartActivity extends AppCompatActivity {
         qualifications.put(getResources().getString(R.string.ug_string), ug_courses);
         qualifications.put(getResources().getString(R.string.gpg_string), gpg_courses);
         qual_spinner.setItems(qualifications)
-//                .setListAdapter(adapter5, "All Types", "none selected",
-//                        new MultiSelectSpinner.MultiSpinnerListener() {
-//                    @Override
-//                    public void onItemsSelected(boolean[] checkedItems) {
-//                    }
-//                })
-                //
+
+
+                .setListener(new MultiSelectSpinner.MultiSpinnerListener() {
+                    @Override
+                    public void onItemsSelected(boolean[] selected) {
+                        // your operation with code...
+                        for(int i=0; i<selected.length; i++) {
+                            if(selected[i]) {
+                                Log.i("TAG", i + " : "+ all_courses.get(i));
+                            }
+                        }
+
+                    }
+                })
+
                 .setAllCheckedText(getResources().getString(R.string.all_select))
                 .setAllUncheckedText(getResources().getString(R.string.none_select))
                 .setMinSelectedItems(1)
@@ -54,6 +63,12 @@ public class CGStartActivity extends AppCompatActivity {
                 .setListener(new MultiSelectSpinner.MultiSpinnerListener() {
                     @Override
                     public void onItemsSelected(boolean[] selected) {
+                        // your operation with code...
+                        for(int i=0; i<selected.length; i++) {
+                            if(selected[i]) {
+                                Log.i("TAG", i + " : "+ skills.get(i));
+                            }
+                        }
 
                     }
                 })
@@ -71,6 +86,12 @@ public class CGStartActivity extends AppCompatActivity {
                 .setListener(new MultiSelectSpinner.MultiSpinnerListener() {
                     @Override
                     public void onItemsSelected(boolean[] selected) {
+                        // your operation with code...
+                        for(int i=0; i<selected.length; i++) {
+                            if(selected[i]) {
+                                Log.i("TAG", i + " : "+ interests.get(i));
+                            }
+                        }
 
                     }
                 })
@@ -88,6 +109,12 @@ public class CGStartActivity extends AppCompatActivity {
                 .setListener(new MultiSelectSpinner.MultiSpinnerListener() {
                     @Override
                     public void onItemsSelected(boolean[] selected) {
+                        // your operation with code...
+                        for(int i=0; i<selected.length; i++) {
+                            if(selected[i]) {
+                                Log.i("TAG", i + " : "+ project_field.get(i));
+                            }
+                        }
 
                     }
                 })

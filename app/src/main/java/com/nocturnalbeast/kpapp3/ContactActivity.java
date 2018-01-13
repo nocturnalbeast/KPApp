@@ -91,8 +91,8 @@ public class ContactActivity extends AppCompatActivity {
             m.setSubject(subject).setMailText(texts);
 
             // 4 - Attach files if you want
-            m.attachFile("AttachedFile.jpg", Environment.getExternalStorageDirectory().getPath() + "/DCIM/100MEDIA/IMAG0001.jpg")
-                    .attachFile("AttachedFile2.jpg", Environment.getExternalStorageDirectory().getPath() + "/DCIM/100MEDIA/IMAG0001.jpg");
+            //m.attachFile("AttachedFile.jpg", Environment.getExternalStorageDirectory().getPath() + "/DCIM/100MEDIA/IMAG0001.jpg")
+            //      .attachFile("AttachedFile2.jpg", Environment.getExternalStorageDirectory().getPath() + "/DCIM/100MEDIA/IMAG0001.jpg");
 
             // 5 - Set properties to use and send
             m.useMailPropertiesGMail().send();
