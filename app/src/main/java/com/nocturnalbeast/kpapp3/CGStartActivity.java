@@ -46,6 +46,7 @@ public class CGStartActivity extends AppCompatActivity {
                         for(int i=0; i<selected.length; i++) {
                             if(selected[i]) {
                                 Log.i("TAG",all_courses.get(i));
+                                selected_all_courses.add(all_courses.get(i));
                             }
                         }
 
@@ -72,6 +73,7 @@ public class CGStartActivity extends AppCompatActivity {
                         for(int i=0; i<selected.length; i++) {
                             if(selected[i]) {
                                 Log.i("TAG",skills.get(i));
+                                selected_skills.add(skills.get(i));
                             }
                         }
 
@@ -95,6 +97,7 @@ public class CGStartActivity extends AppCompatActivity {
                         for(int i=0; i<selected.length; i++) {
                             if(selected[i]) {
                                 Log.i("TAG",interests.get(i));
+                                selected_interests.add(interests.get(i));
                             }
                         }
 
@@ -118,6 +121,7 @@ public class CGStartActivity extends AppCompatActivity {
                         for(int i=0; i<selected.length; i++) {
                             if(selected[i]) {
                                 Log.i("TAG",project_field.get(i));
+                                selected_project_field.add(project_field.get(i));
                             }
                         }
 
