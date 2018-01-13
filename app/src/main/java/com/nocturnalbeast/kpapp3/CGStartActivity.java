@@ -26,6 +26,11 @@ public class CGStartActivity extends AppCompatActivity {
         final ArrayList<String> gpg_courses = new ArrayList(Arrays.asList(getResources().getStringArray(R.array.gpg_courses)));
         final ArrayList<String> all_courses = new ArrayList(Arrays.asList(getResources().getStringArray(R.array.all_courses)));
 
+        final ArrayList<String> selected_skills = new ArrayList<>(null);
+        final ArrayList<String> selected_project_field = new ArrayList<>(null);
+        final ArrayList<String> selected_interests = new ArrayList<>(null);
+        final ArrayList<String> selected_all_courses = new ArrayList<>(null);
+
         ExpandableMultiSelectSpinner qual_spinner = (ExpandableMultiSelectSpinner) findViewById(R.id.qual_spinner);
         LinkedHashMap<String, List<String>> qualifications =  new LinkedHashMap<>();
 
