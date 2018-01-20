@@ -3,9 +3,9 @@
     package="com.nocturnalbeast.kpapp3">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -13,24 +13,25 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".MainActivity"/>
         <activity android:name=".ContactActivity" />
-        <activity android:name=".CGStartActivity"
-            android:theme="@style/CGStartTheme"/>
+        <activity
+            android:name=".CGStartActivity"
+            android:theme="@style/CGStartTheme" />
         <activity android:name=".PTStartActivity" />
         <activity android:name=".PTCompanyListActivity" />
-        <activity android:name=".CompanyDetailsActivity"></activity>
+        <activity android:name=".CompanyDetailsActivity" />
+        <activity android:name=".CGRecommendActivity" />
+        <activity android:name=".SplashActivity" android:theme="@style/SplashTheme">
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter></activity>
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/map_api_key" />
-
 
     </application>
 

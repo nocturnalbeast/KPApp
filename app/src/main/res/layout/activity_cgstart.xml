@@ -56,4 +56,21 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dip"
         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_findjob"
+            android:text="@string/btn_findjob"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
 </LinearLayout>

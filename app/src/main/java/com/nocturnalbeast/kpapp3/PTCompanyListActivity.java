@@ -1,7 +1,6 @@
 package com.nocturnalbeast.kpapp3;
 
 import android.content.Intent;
-import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -35,7 +34,7 @@ public class PTCompanyListActivity extends AppCompatActivity {
         final Intent getIntentStuff = getIntent();
         getData = getIntentStuff.getExtras();
         field = getData.getString("field");
-        ptcl_greet.setText("The top five companies in " + field.toLowerCase() + " are:");
+        ptcl_greet.setText("The top few opportunities in India in " + field.toLowerCase() + " are:");
 
         if (field.equals(getString(R.string.field_accounts))) {
             clist = new ArrayList<String>(Arrays.asList(getResources().getStringArray(R.array.accounting_companies)));

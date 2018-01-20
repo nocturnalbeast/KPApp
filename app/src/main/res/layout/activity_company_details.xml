@@ -53,7 +53,7 @@
             android:textColor="@color/colorText1"
             android:text="enter deets here"
             android:gravity="left"
-            android:textSize="17dip"
+            android:textSize="14dip"
             android:layout_marginTop="@dimen/activity_vertical_margin"
             android:layout_marginBottom="@dimen/activity_vertical_margin"
             android:layout_marginLeft="20dp"

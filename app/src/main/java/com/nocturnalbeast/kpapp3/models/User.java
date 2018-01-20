@@ -1,6 +1,5 @@
 package com.nocturnalbeast.kpapp3.models;
 
-
 public class User {
 
     private String name;
@@ -9,7 +8,6 @@ public class User {
     private String password;
     private String old_password;
     private String new_password;
-
 
     public String getName() {
         return name;
@@ -22,7 +20,6 @@ public class User {
     public String getUnique_id() {
         return unique_id;
     }
-
 
     public void setName(String name) {
         this.name = name;

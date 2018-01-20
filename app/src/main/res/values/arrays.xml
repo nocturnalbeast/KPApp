@@ -6,7 +6,6 @@
         <item>Agronomist</item>
         <item>Field Scientist</item>
         <item>Farming</item>
-        <item>shit</item>
     </string-array>
 
     <string-array name="it_companies">
@@ -18,19 +17,19 @@
     </string-array>
 
     <string-array name="teaching_companies">
-        <item>Google</item>
-        <item>my</item>
-        <item>as</item>
-        <item>an</item>
-        <item>am</item>
+        <item>Saintgits College of Engineering</item>
+        <item>Govt Institutions</item>
+        <item>BITS PILANI</item>
+        <item>Publish Research Papers</item>
+        <item>Tuition Center</item>
     </string-array>
 
     <string-array name="accounting_companies">
         <item>Charted Accountant</item>
-        <item>SHIT</item>
-        <item>Shit</item>
-        <item>ShIt</item>
-        <item>sheeeeeeeet</item>
+        <item>Banking</item>
+        <item>Company Secretary</item>
+        <item>Insurance</item>
+        <item>Foreign Trade</item>
     </string-array>
 
     <string-array name="literature_companies">

@@ -1,6 +1,5 @@
 package com.nocturnalbeast.kpapp3.models;
 
-
 import com.nocturnalbeast.kpapp3.models.User;
 
 public class ServerResponse {
