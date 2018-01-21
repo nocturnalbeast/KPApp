@@ -13,7 +13,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"/>
+        <activity android:name=".MainActivity" />
         <activity android:name=".ContactActivity" />
         <activity
             android:name=".CGStartActivity"
@@ -22,17 +22,21 @@
         <activity android:name=".PTCompanyListActivity" />
         <activity android:name=".CompanyDetailsActivity" />
         <activity android:name=".CGRecommendActivity" />
-        <activity android:name=".SplashActivity" android:theme="@style/SplashTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
             <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter></activity>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/map_api_key" />
 
+        <activity android:name=".CGFinalActivity"></activity>
     </application>
 
 </manifest>

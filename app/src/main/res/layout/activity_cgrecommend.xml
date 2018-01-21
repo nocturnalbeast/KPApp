@@ -72,5 +72,21 @@
         android:layout_marginLeft="@dimen/activity_horizontal_margin"
         android:layout_marginRight="@dimen/activity_horizontal_margin"/>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dip"
+        android:layout_marginLeft="30dip">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_findtrainloc"
+            android:text="@string/btn_findtrainloc"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
 
 </LinearLayout>

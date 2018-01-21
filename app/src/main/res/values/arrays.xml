@@ -2,10 +2,11 @@
 <resources>
 
     <string-array name="farming_companies">
-        <item>Farm Managers</item>
-        <item>Agronomist</item>
-        <item>Field Scientist</item>
-        <item>Farming</item>
+        <item>Rallies India Limited</item>
+        <item>Nuziveedu Seeds Limited</item>
+        <item>Lemken India Agro Equipments Private Limited</item>
+        <item>Advanta Limited</item>
+        <item>Monsanto India</item>
     </string-array>
 
     <string-array name="it_companies">
@@ -17,27 +18,27 @@
     </string-array>
 
     <string-array name="teaching_companies">
-        <item>Saintgits College of Engineering</item>
-        <item>Govt Institutions</item>
-        <item>BITS PILANI</item>
-        <item>Publish Research Papers</item>
-        <item>Tuition Center</item>
+        <item>NIIT</item>
+        <item>Teach for India Foundation</item>
+        <item>Amity University</item>
+        <item>Amritha University</item>
+        <item>iDiscoveri</item>
     </string-array>
 
     <string-array name="accounting_companies">
-        <item>Charted Accountant</item>
-        <item>Banking</item>
-        <item>Company Secretary</item>
-        <item>Insurance</item>
-        <item>Foreign Trade</item>
+        <item>HDFC Bank</item>
+        <item>SBI</item>
+        <item>Ernest Young</item>
+        <item>Paul &amp; Martin Consulting Group</item>
+        <item>BNP Paribas</item>
     </string-array>
 
     <string-array name="literature_companies">
-        <item>Journalism</item>
-        <item>Lexicographer</item>
-        <item>Digital Copywriter</item>
-        <item>Publishing Careers</item>
-        <item>Teaching Careers</item>
+        <item>Malayala Manorama</item>
+        <item>Puffin Books</item>
+        <item>Writer's Side</item>
+        <item>Penguin Books</item>
+        <item>Purple Folio</item>
     </string-array>
 
     <string-array name="interests">
@@ -77,37 +78,37 @@
 
     <string-array name="ug_courses">
         <item>B.Tech</item>
-        <item>B.Arch</item>
         <item>B.Com</item>
         <item>BBA</item>
         <item>BCA</item>
+        <item>B.Sc(Farming)</item>
         <item>BA(Eng.)</item>
         <item>B.Ed</item>
     </string-array>
 
     <string-array name="gpg_courses">
         <item>M.Tech</item>
-        <item>M.Arch</item>
         <item>M.Com</item>
         <item>MBA</item>
         <item>MCA</item>
+        <item>M.Sc(Farming)</item>
         <item>MA(Eng.)</item>
         <item>M.Ed</item>
     </string-array>
 
     <string-array name="all_courses">
         <item>B.Tech</item>
-        <item>B.Arch</item>
         <item>B.Com</item>
         <item>BBA</item>
         <item>BCA</item>
+        <item>B.Sc(Farming)</item>
         <item>BA(Eng.)</item>
         <item>B.Ed</item>
         <item>M.Tech</item>
-        <item>M.Arch</item>
         <item>M.Com</item>
         <item>MBA</item>
         <item>MCA</item>
+        <item>M.Sc(Farming)</item>
         <item>MA(Eng.)</item>
         <item>M.Ed</item>
     </string-array>
