@@ -9,6 +9,8 @@ import android.view.View;
 public class PTStartActivity extends AppCompatActivity {
 
     Button btn_farming, btn_teaching, btn_accounts, btn_literature, btn_it;
+    Intent SwitchToAA;
+    Bundle sendData;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,12 +23,13 @@ public class PTStartActivity extends AppCompatActivity {
         btn_literature = (Button) findViewById(R.id.btn_literature);
         btn_teaching = (Button) findViewById(R.id.btn_teaching);
 
+        SwitchToAA = new Intent(getApplicationContext(),PTCompanyListActivity.class);
+        sendData = new Bundle();
+
         btn_accounts.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Bundle sendData = new Bundle();
                 sendData.putString("field",getString(R.string.field_accounts));
-                Intent SwitchToAA = new Intent(getApplicationContext(),PTCompanyListActivity.class);
                 SwitchToAA.putExtras(sendData);
                 startActivity(SwitchToAA);
             }
@@ -35,9 +38,7 @@ public class PTStartActivity extends AppCompatActivity {
         btn_teaching.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Bundle sendData = new Bundle();
                 sendData.putString("field",getString(R.string.field_teach));
-                Intent SwitchToAA = new Intent(getApplicationContext(),PTCompanyListActivity.class);
                 SwitchToAA.putExtras(sendData);
                 startActivity(SwitchToAA);
             }
@@ -46,9 +47,7 @@ public class PTStartActivity extends AppCompatActivity {
         btn_literature.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Bundle sendData = new Bundle();
                 sendData.putString("field",getString(R.string.field_literature));
-                Intent SwitchToAA = new Intent(getApplicationContext(),PTCompanyListActivity.class);
                 SwitchToAA.putExtras(sendData);
                 startActivity(SwitchToAA);
             }
@@ -57,9 +56,7 @@ public class PTStartActivity extends AppCompatActivity {
         btn_it.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Bundle sendData = new Bundle();
                 sendData.putString("field",getString(R.string.field_it));
-                Intent SwitchToAA = new Intent(getApplicationContext(),PTCompanyListActivity.class);
                 SwitchToAA.putExtras(sendData);
                 startActivity(SwitchToAA);
             }
@@ -68,9 +65,7 @@ public class PTStartActivity extends AppCompatActivity {
         btn_farming.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Bundle sendData = new Bundle();
                 sendData.putString("field",getString(R.string.field_farming));
-                Intent SwitchToAA = new Intent(getApplicationContext(),PTCompanyListActivity.class);
                 SwitchToAA.putExtras(sendData);
                 startActivity(SwitchToAA);
             }

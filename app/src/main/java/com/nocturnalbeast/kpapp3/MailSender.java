@@ -63,28 +63,6 @@ public class MailSender {
 
     public MailSender useMailPropertiesGMail(){
 
-//		####################################################################################################
-//		Data from           https://support.google.com/mail/troubleshooter/1668960?rd=1&hl=en
-//		####################################################################################################
-//		Standard configuration instructions:
-//		Outgoing Mail (SMTP) Server - requires TLS or SSL:	 smtp.gmail.com
-//		Use Authentication: Yes
-//		Port for TLS/STARTTLS: 587
-//		Port for SSL: 465
-//		Server timeouts	 Greater than 1 minute, we recommend 5
-//		Account Name or User Name:	 your full email address (including @gmail.com or @your_domain.com)
-//		Email Address:	 your email address (username@gmail.com or username@your_domain.com)
-//		Password:	 your Gmail password
-//		####################################################################################################
-
-//		####################################################################################################
-//		SUMMING UP
-//		####################################################################################################
-//		SMTP server: smtp.gmail.com
-//		Port: 465 -> if trouble (587)
-//		Security type: SSL (always)
-//		####################################################################################################
-
         emailProperties = new Properties();
         emailProperties.put("mail.smtp.auth", "true");
         emailProperties.put("mail.smtp.host", "smtp.gmail.com");

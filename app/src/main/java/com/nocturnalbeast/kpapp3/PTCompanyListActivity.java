@@ -29,7 +29,6 @@ public class PTCompanyListActivity extends AppCompatActivity {
 
         String field;
         List<String> clist = null;
-        String[] companies;
         Bundle getData;
         final Intent getIntentStuff = getIntent();
         getData = getIntentStuff.getExtras();
@@ -52,7 +51,7 @@ public class PTCompanyListActivity extends AppCompatActivity {
             clist = new ArrayList<String>(Arrays.asList(getResources().getStringArray(R.array.farming_companies)));
         }
 
-        final ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_2, android.R.id.text1, clist){
+        final ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1, android.R.id.text1, clist){
             @Override
             public View getView(int position, View convertView, ViewGroup parent){
 

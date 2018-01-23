@@ -22,6 +22,7 @@
         <activity android:name=".PTCompanyListActivity" />
         <activity android:name=".CompanyDetailsActivity" />
         <activity android:name=".CGRecommendActivity" />
+        <activity android:name=".CGFinalActivity" />
         <activity
             android:name=".SplashActivity"
             android:theme="@style/SplashTheme">
@@ -36,7 +37,6 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/map_api_key" />
 
-        <activity android:name=".CGFinalActivity"></activity>
     </application>
 
 </manifest>

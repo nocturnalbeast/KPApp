@@ -28,12 +28,19 @@
     <string name="interest_string">Select your field(s) of interest:</string>
     <string name="project_field_string">Select the field your project belongs to:</string>
 
-
     <string name="field_it">Information Technology</string>
     <string name="field_accounts">Commerce and Banking</string>
     <string name="field_teach">Teaching</string>
     <string name="field_literature">Literature</string>
     <string name="field_farming">Agriculture</string>
+
+    <string name="job_desc_farming">waht does the fox say?</string>
+    <string name="job_desc_accounting">im gonna pop some tags</string>
+    <string name="job_desc_it">technologic</string>
+    <string name="job_desc_teaching">ive got that milk money</string>
+    <string name="job_desc_literature">today im feeling like i wont do anything</string>
+
+
 
     <string name="ug_string">Undergraduate courses</string>
     <string name="gpg_string">Graduate and Postgraduate courses</string>
@@ -41,9 +48,6 @@
     <string name="apt_test_go">Get aptitude tests</string>
     <string name="btn_findjob">Find me the best job!</string>
     <string name="btn_findtrainloc">Find me places to train for the job!</string>
-    <string name="co_details_infosys">Established in 1981, Infosys is a NYSE listed global consulting and IT services company with more than 198,000 employees. From a capital of US$250, we have grown to become a US$10.5 billion (LTM Q2 FY18 revenues) company with a market capitalization of approximately US$33.5 billion.
-
-In our journey of over 35 years, we have catalyzed some of the major changes that have led to India's emergence as the global destination for software services talent. We pioneered the Global Delivery Model and became the first IT company from India to be listed on NASDAQ. Our employee stock options program created some of India's first salaried millionaires.
-</string>
+    <string name="joblist_label_str">Here\'s a list of the jobs that belong to this field:</string>
 
 </resources>

@@ -23,6 +23,8 @@ public class CGRecommendActivity extends AppCompatActivity {
 
     Button btn_finalcg;
 
+    Bundle sendData;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -53,12 +55,15 @@ public class CGRecommendActivity extends AppCompatActivity {
         skills_tv.setText("You've listed your skills as " + TextUtils.join(", ", selected_skills) + ".");
         interests_tv.setText("And you've listed your interests as " + TextUtils.join(", ", selected_interests) + ".");
 
+        sendData = new Bundle();
+
         btn_finalcg = (Button)findViewById(R.id.btn_findtrainloc);
 
         btn_finalcg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent switchToTrainDeets = new Intent(getApplicationContext(),CGFinalActivity.class);
+                switchToTrainDeets.putExtras(sendData);
                 startActivity(switchToTrainDeets);
             }
         });
@@ -67,22 +72,27 @@ public class CGRecommendActivity extends AppCompatActivity {
 
         if (rank_it>=rank_teaching&&rank_it>=rank_accounting&&rank_it>=rank_farming&&rank_it>=rank_literature) {
             final_job_tv.setText("You're suited to be an IT professional.");
+            sendData.putString("job","IT Professional");
         }
 
         if (rank_literature>=rank_it&&rank_literature>=rank_accounting&&rank_literature>=rank_farming&&rank_literature>=rank_teaching) {
             final_job_tv.setText("You're suited to be a literary person.");
+            sendData.putString("job","Literary Agent");
         }
 
         if (rank_teaching>=rank_it&&rank_teaching>=rank_accounting&&rank_teaching>=rank_farming&&rank_teaching>=rank_literature) {
             final_job_tv.setText("You're suited to be a teacher.");
+            sendData.putString("job","Teacher");
         }
 
         if (rank_accounting>=rank_teaching&&rank_accounting>=rank_it&&rank_accounting>=rank_farming&&rank_accounting>=rank_literature) {
             final_job_tv.setText("You're suited to be an accountant/businessman.");
+            sendData.putString("job","Accountant/Businessman");
         }
 
         if (rank_farming>=rank_teaching&&rank_farming>=rank_accounting&&rank_farming>=rank_it&&rank_farming>=rank_literature) {
             final_job_tv.setText("You're suited to be a farmer.");
+            sendData.putString("job","Farmer");
         }
 
 

@@ -1,13 +1,10 @@
 package com.nocturnalbeast.kpapp3;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -22,9 +19,6 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.sothree.slidinguppanel.SlidingUpPanelLayout;
-
-import java.io.File;
-
 
 public class CompanyDetailsActivity extends AppCompatActivity implements OnMapReadyCallback{
 
@@ -55,6 +49,52 @@ public class CompanyDetailsActivity extends AppCompatActivity implements OnMapRe
                 if (company_name.equals("Infosys"))
                     link = "https://drive.google.com/drive/folders/1EE3Yur8I79Kb82DwRlGwG__3z36sN0l_";
                 else if(company_name.equals("Wipro"))
+                    link = "http://drive.google.com";
+                else if(company_name.equals("TCS"))
+                    link = "http://drive.google.com";
+                else if(company_name.equals("UST Global"))
+                    link = "http://drive.google.com";
+                else if(company_name.equals("Accenture"))
+                    link = "http://drive.google.com";
+                else if(company_name.equals("HDFC Bank"))
+                    link = "http://drive.google.com";
+                else if(company_name.equals("SBI"))
+                    link = "http://drive.google.com";
+                else if(company_name.equals("Ernest Young"))
+                    link = "http://drive.google.com";
+                else if(company_name.equals("Paul & Martin Consulting Group"))
+                    link = "http://drive.google.com";
+                else if(company_name.equals("BNP Paribas"))
+                    link = "http://drive.google.com";
+                else if(company_name.equals("NIIT"))
+                    link = "http://drive.google.com";
+                else if(company_name.equals("Teach for India Foundation"))
+                    link = "http://drive.google.com";
+                else if(company_name.equals("Amity University"))
+                    link = "http://drive.google.com";
+                else if(company_name.equals("Amritha University"))
+                    link = "http://drive.google.com";
+                else if(company_name.equals("iDiscoveri"))
+                    link = "http://drive.google.com";
+                else if(company_name.equals("Malayala Manorama"))
+                    link = "http://drive.google.com";
+                else if(company_name.equals("Puffin Books"))
+                    link = "http://drive.google.com";
+                else if(company_name.equals("Writer's Side"))
+                    link = "http://drive.google.com";
+                else if(company_name.equals("Penguin Books"))
+                    link = "http://drive.google.com";
+                else if(company_name.equals("Purple Folio"))
+                    link = "http://drive.google.com";
+                else if(company_name.equals("Rallies India Limited"))
+                    link = "http://drive.google.com";
+                else if(company_name.equals("Nuziveedu Seeds Limited"))
+                    link = "http://drive.google.com";
+                else if(company_name.equals("Lemken India Agro Equipments Private Limited"))
+                    link = "http://drive.google.com";
+                else if(company_name.equals("Advanta Limited"))
+                    link = "http://drive.google.com";
+                else if(company_name.equals("Monsanto India"))
                     link = "http://drive.google.com";
                 else
                     link = "http://drive.google.com";
@@ -143,7 +183,7 @@ public class CompanyDetailsActivity extends AppCompatActivity implements OnMapRe
             googleMap.setMinZoomPreference(5.0f);
             googleMap.moveCamera(CameraUpdateFactory.newLatLng(bangalore));
         }
-        if (company_name.equals("Infosys")) {
+        if (company_name.equals("TCS")) {
             LatLng bangalore = new LatLng(12.865551 , 77.657228);
             googleMap.addMarker(new MarkerOptions().position(bangalore)
                     .title("Bangalore Office"));
@@ -197,7 +237,7 @@ public class CompanyDetailsActivity extends AppCompatActivity implements OnMapRe
             googleMap.setMinZoomPreference(5.0f);
             googleMap.moveCamera(CameraUpdateFactory.newLatLng(bangalore));
         }
-        if (company_name.equals("TCS")) {
+        if (company_name.equals("Accenture")) {
             LatLng bangalore = new LatLng(12.865551 , 77.657228);
             googleMap.addMarker(new MarkerOptions().position(bangalore)
                     .title("Bangalore Office"));
@@ -224,7 +264,546 @@ public class CompanyDetailsActivity extends AppCompatActivity implements OnMapRe
             googleMap.setMinZoomPreference(5.0f);
             googleMap.moveCamera(CameraUpdateFactory.newLatLng(bangalore));
         }
+        if (company_name.equals("HDFC Bank")) {
+            LatLng bangalore = new LatLng(12.865551 , 77.657228);
+            googleMap.addMarker(new MarkerOptions().position(bangalore)
+                    .title("Bangalore Office"));
 
+            LatLng hyderabad = new LatLng(17.436394   , 78.348016);
+            googleMap.addMarker(new MarkerOptions().position(hyderabad)
+                    .title("Hyderabad Office"));
+
+            LatLng mangalore = new LatLng(12.904781 , 74.836354);
+            googleMap.addMarker(new MarkerOptions().position(mangalore)
+                    .title("Mangalore Office"));
+
+            LatLng mysore = new LatLng(12.360039 , 76.592899);
+            googleMap.addMarker(new MarkerOptions().position(mysore)
+                    .title("Myosre Office"));
+
+            LatLng kerala = new LatLng(8.533547 , 76.883487);
+            googleMap.addMarker(new MarkerOptions().position(kerala)
+                    .title("Kerala Office"));
+
+            LatLng chennai = new LatLng(12.888226 , 80.227345);
+            googleMap.addMarker(new MarkerOptions().position(chennai)
+                    .title("Chennai Office"));
+            googleMap.setMinZoomPreference(5.0f);
+            googleMap.moveCamera(CameraUpdateFactory.newLatLng(bangalore));
+        }
+        if (company_name.equals("SBI")) {
+            LatLng bangalore = new LatLng(12.865551 , 77.657228);
+            googleMap.addMarker(new MarkerOptions().position(bangalore)
+                    .title("Bangalore Office"));
+
+            LatLng hyderabad = new LatLng(17.436394   , 78.348016);
+            googleMap.addMarker(new MarkerOptions().position(hyderabad)
+                    .title("Hyderabad Office"));
+
+            LatLng mangalore = new LatLng(12.904781 , 74.836354);
+            googleMap.addMarker(new MarkerOptions().position(mangalore)
+                    .title("Mangalore Office"));
+
+            LatLng mysore = new LatLng(12.360039 , 76.592899);
+            googleMap.addMarker(new MarkerOptions().position(mysore)
+                    .title("Myosre Office"));
+
+            LatLng kerala = new LatLng(8.533547 , 76.883487);
+            googleMap.addMarker(new MarkerOptions().position(kerala)
+                    .title("Kerala Office"));
+
+            LatLng chennai = new LatLng(12.888226 , 80.227345);
+            googleMap.addMarker(new MarkerOptions().position(chennai)
+                    .title("Chennai Office"));
+            googleMap.setMinZoomPreference(5.0f);
+            googleMap.moveCamera(CameraUpdateFactory.newLatLng(bangalore));
+        }
+        if (company_name.equals("Ernest Young")) {
+            LatLng bangalore = new LatLng(12.865551 , 77.657228);
+            googleMap.addMarker(new MarkerOptions().position(bangalore)
+                    .title("Bangalore Office"));
+
+            LatLng hyderabad = new LatLng(17.436394   , 78.348016);
+            googleMap.addMarker(new MarkerOptions().position(hyderabad)
+                    .title("Hyderabad Office"));
+
+            LatLng mangalore = new LatLng(12.904781 , 74.836354);
+            googleMap.addMarker(new MarkerOptions().position(mangalore)
+                    .title("Mangalore Office"));
+
+            LatLng mysore = new LatLng(12.360039 , 76.592899);
+            googleMap.addMarker(new MarkerOptions().position(mysore)
+                    .title("Myosre Office"));
+
+            LatLng kerala = new LatLng(8.533547 , 76.883487);
+            googleMap.addMarker(new MarkerOptions().position(kerala)
+                    .title("Kerala Office"));
+
+            LatLng chennai = new LatLng(12.888226 , 80.227345);
+            googleMap.addMarker(new MarkerOptions().position(chennai)
+                    .title("Chennai Office"));
+            googleMap.setMinZoomPreference(5.0f);
+            googleMap.moveCamera(CameraUpdateFactory.newLatLng(bangalore));
+        }
+        if (company_name.equals("Paul & Martin Consulting Group")) {
+            LatLng bangalore = new LatLng(12.865551 , 77.657228);
+            googleMap.addMarker(new MarkerOptions().position(bangalore)
+                    .title("Bangalore Office"));
+
+            LatLng hyderabad = new LatLng(17.436394   , 78.348016);
+            googleMap.addMarker(new MarkerOptions().position(hyderabad)
+                    .title("Hyderabad Office"));
+
+            LatLng mangalore = new LatLng(12.904781 , 74.836354);
+            googleMap.addMarker(new MarkerOptions().position(mangalore)
+                    .title("Mangalore Office"));
+
+            LatLng mysore = new LatLng(12.360039 , 76.592899);
+            googleMap.addMarker(new MarkerOptions().position(mysore)
+                    .title("Myosre Office"));
+
+            LatLng kerala = new LatLng(8.533547 , 76.883487);
+            googleMap.addMarker(new MarkerOptions().position(kerala)
+                    .title("Kerala Office"));
+
+            LatLng chennai = new LatLng(12.888226 , 80.227345);
+            googleMap.addMarker(new MarkerOptions().position(chennai)
+                    .title("Chennai Office"));
+            googleMap.setMinZoomPreference(5.0f);
+            googleMap.moveCamera(CameraUpdateFactory.newLatLng(bangalore));
+        }
+        if (company_name.equals("BNP Paribas")) {
+            LatLng bangalore = new LatLng(12.865551 , 77.657228);
+            googleMap.addMarker(new MarkerOptions().position(bangalore)
+                    .title("Bangalore Office"));
+
+            LatLng hyderabad = new LatLng(17.436394   , 78.348016);
+            googleMap.addMarker(new MarkerOptions().position(hyderabad)
+                    .title("Hyderabad Office"));
+
+            LatLng mangalore = new LatLng(12.904781 , 74.836354);
+            googleMap.addMarker(new MarkerOptions().position(mangalore)
+                    .title("Mangalore Office"));
+
+            LatLng mysore = new LatLng(12.360039 , 76.592899);
+            googleMap.addMarker(new MarkerOptions().position(mysore)
+                    .title("Myosre Office"));
+
+            LatLng kerala = new LatLng(8.533547 , 76.883487);
+            googleMap.addMarker(new MarkerOptions().position(kerala)
+                    .title("Kerala Office"));
+
+            LatLng chennai = new LatLng(12.888226 , 80.227345);
+            googleMap.addMarker(new MarkerOptions().position(chennai)
+                    .title("Chennai Office"));
+            googleMap.setMinZoomPreference(5.0f);
+            googleMap.moveCamera(CameraUpdateFactory.newLatLng(bangalore));
+        }
+        if (company_name.equals("NIIT")) {
+            LatLng bangalore = new LatLng(12.865551 , 77.657228);
+            googleMap.addMarker(new MarkerOptions().position(bangalore)
+                    .title("Bangalore Office"));
+
+            LatLng hyderabad = new LatLng(17.436394   , 78.348016);
+            googleMap.addMarker(new MarkerOptions().position(hyderabad)
+                    .title("Hyderabad Office"));
+
+            LatLng mangalore = new LatLng(12.904781 , 74.836354);
+            googleMap.addMarker(new MarkerOptions().position(mangalore)
+                    .title("Mangalore Office"));
+
+            LatLng mysore = new LatLng(12.360039 , 76.592899);
+            googleMap.addMarker(new MarkerOptions().position(mysore)
+                    .title("Myosre Office"));
+
+            LatLng kerala = new LatLng(8.533547 , 76.883487);
+            googleMap.addMarker(new MarkerOptions().position(kerala)
+                    .title("Kerala Office"));
+
+            LatLng chennai = new LatLng(12.888226 , 80.227345);
+            googleMap.addMarker(new MarkerOptions().position(chennai)
+                    .title("Chennai Office"));
+            googleMap.setMinZoomPreference(5.0f);
+            googleMap.moveCamera(CameraUpdateFactory.newLatLng(bangalore));
+        }
+        if (company_name.equals("Teach for India Foundation")) {
+            LatLng bangalore = new LatLng(12.865551 , 77.657228);
+            googleMap.addMarker(new MarkerOptions().position(bangalore)
+                    .title("Bangalore Office"));
+
+            LatLng hyderabad = new LatLng(17.436394   , 78.348016);
+            googleMap.addMarker(new MarkerOptions().position(hyderabad)
+                    .title("Hyderabad Office"));
+
+            LatLng mangalore = new LatLng(12.904781 , 74.836354);
+            googleMap.addMarker(new MarkerOptions().position(mangalore)
+                    .title("Mangalore Office"));
+
+            LatLng mysore = new LatLng(12.360039 , 76.592899);
+            googleMap.addMarker(new MarkerOptions().position(mysore)
+                    .title("Myosre Office"));
+
+            LatLng kerala = new LatLng(8.533547 , 76.883487);
+            googleMap.addMarker(new MarkerOptions().position(kerala)
+                    .title("Kerala Office"));
+
+            LatLng chennai = new LatLng(12.888226 , 80.227345);
+            googleMap.addMarker(new MarkerOptions().position(chennai)
+                    .title("Chennai Office"));
+            googleMap.setMinZoomPreference(5.0f);
+            googleMap.moveCamera(CameraUpdateFactory.newLatLng(bangalore));
+        }
+        if (company_name.equals("Amity University")) {
+            LatLng bangalore = new LatLng(12.865551 , 77.657228);
+            googleMap.addMarker(new MarkerOptions().position(bangalore)
+                    .title("Bangalore Office"));
+
+            LatLng hyderabad = new LatLng(17.436394   , 78.348016);
+            googleMap.addMarker(new MarkerOptions().position(hyderabad)
+                    .title("Hyderabad Office"));
+
+            LatLng mangalore = new LatLng(12.904781 , 74.836354);
+            googleMap.addMarker(new MarkerOptions().position(mangalore)
+                    .title("Mangalore Office"));
+
+            LatLng mysore = new LatLng(12.360039 , 76.592899);
+            googleMap.addMarker(new MarkerOptions().position(mysore)
+                    .title("Myosre Office"));
+
+            LatLng kerala = new LatLng(8.533547 , 76.883487);
+            googleMap.addMarker(new MarkerOptions().position(kerala)
+                    .title("Kerala Office"));
+
+            LatLng chennai = new LatLng(12.888226 , 80.227345);
+            googleMap.addMarker(new MarkerOptions().position(chennai)
+                    .title("Chennai Office"));
+            googleMap.setMinZoomPreference(5.0f);
+            googleMap.moveCamera(CameraUpdateFactory.newLatLng(bangalore));
+        }
+        if (company_name.equals("Amritha University")) {
+            LatLng bangalore = new LatLng(12.865551 , 77.657228);
+            googleMap.addMarker(new MarkerOptions().position(bangalore)
+                    .title("Bangalore Office"));
+
+            LatLng hyderabad = new LatLng(17.436394   , 78.348016);
+            googleMap.addMarker(new MarkerOptions().position(hyderabad)
+                    .title("Hyderabad Office"));
+
+            LatLng mangalore = new LatLng(12.904781 , 74.836354);
+            googleMap.addMarker(new MarkerOptions().position(mangalore)
+                    .title("Mangalore Office"));
+
+            LatLng mysore = new LatLng(12.360039 , 76.592899);
+            googleMap.addMarker(new MarkerOptions().position(mysore)
+                    .title("Myosre Office"));
+
+            LatLng kerala = new LatLng(8.533547 , 76.883487);
+            googleMap.addMarker(new MarkerOptions().position(kerala)
+                    .title("Kerala Office"));
+
+            LatLng chennai = new LatLng(12.888226 , 80.227345);
+            googleMap.addMarker(new MarkerOptions().position(chennai)
+                    .title("Chennai Office"));
+            googleMap.setMinZoomPreference(5.0f);
+            googleMap.moveCamera(CameraUpdateFactory.newLatLng(bangalore));
+        }
+        if (company_name.equals("iDiscoveri")) {
+            LatLng bangalore = new LatLng(12.865551 , 77.657228);
+            googleMap.addMarker(new MarkerOptions().position(bangalore)
+                    .title("Bangalore Office"));
+
+            LatLng hyderabad = new LatLng(17.436394   , 78.348016);
+            googleMap.addMarker(new MarkerOptions().position(hyderabad)
+                    .title("Hyderabad Office"));
+
+            LatLng mangalore = new LatLng(12.904781 , 74.836354);
+            googleMap.addMarker(new MarkerOptions().position(mangalore)
+                    .title("Mangalore Office"));
+
+            LatLng mysore = new LatLng(12.360039 , 76.592899);
+            googleMap.addMarker(new MarkerOptions().position(mysore)
+                    .title("Myosre Office"));
+
+            LatLng kerala = new LatLng(8.533547 , 76.883487);
+            googleMap.addMarker(new MarkerOptions().position(kerala)
+                    .title("Kerala Office"));
+
+            LatLng chennai = new LatLng(12.888226 , 80.227345);
+            googleMap.addMarker(new MarkerOptions().position(chennai)
+                    .title("Chennai Office"));
+            googleMap.setMinZoomPreference(5.0f);
+            googleMap.moveCamera(CameraUpdateFactory.newLatLng(bangalore));
+        }
+        if (company_name.equals("Malayala Manorama")) {
+            LatLng bangalore = new LatLng(12.865551 , 77.657228);
+            googleMap.addMarker(new MarkerOptions().position(bangalore)
+                    .title("Bangalore Office"));
+
+            LatLng hyderabad = new LatLng(17.436394   , 78.348016);
+            googleMap.addMarker(new MarkerOptions().position(hyderabad)
+                    .title("Hyderabad Office"));
+
+            LatLng mangalore = new LatLng(12.904781 , 74.836354);
+            googleMap.addMarker(new MarkerOptions().position(mangalore)
+                    .title("Mangalore Office"));
+
+            LatLng mysore = new LatLng(12.360039 , 76.592899);
+            googleMap.addMarker(new MarkerOptions().position(mysore)
+                    .title("Myosre Office"));
+
+            LatLng kerala = new LatLng(8.533547 , 76.883487);
+            googleMap.addMarker(new MarkerOptions().position(kerala)
+                    .title("Kerala Office"));
+
+            LatLng chennai = new LatLng(12.888226 , 80.227345);
+            googleMap.addMarker(new MarkerOptions().position(chennai)
+                    .title("Chennai Office"));
+            googleMap.setMinZoomPreference(5.0f);
+            googleMap.moveCamera(CameraUpdateFactory.newLatLng(bangalore));
+        }
+        if (company_name.equals("Puffin Books")) {
+            LatLng bangalore = new LatLng(12.865551 , 77.657228);
+            googleMap.addMarker(new MarkerOptions().position(bangalore)
+                    .title("Bangalore Office"));
+
+            LatLng hyderabad = new LatLng(17.436394   , 78.348016);
+            googleMap.addMarker(new MarkerOptions().position(hyderabad)
+                    .title("Hyderabad Office"));
+
+            LatLng mangalore = new LatLng(12.904781 , 74.836354);
+            googleMap.addMarker(new MarkerOptions().position(mangalore)
+                    .title("Mangalore Office"));
+
+            LatLng mysore = new LatLng(12.360039 , 76.592899);
+            googleMap.addMarker(new MarkerOptions().position(mysore)
+                    .title("Myosre Office"));
+
+            LatLng kerala = new LatLng(8.533547 , 76.883487);
+            googleMap.addMarker(new MarkerOptions().position(kerala)
+                    .title("Kerala Office"));
+
+            LatLng chennai = new LatLng(12.888226 , 80.227345);
+            googleMap.addMarker(new MarkerOptions().position(chennai)
+                    .title("Chennai Office"));
+            googleMap.setMinZoomPreference(5.0f);
+            googleMap.moveCamera(CameraUpdateFactory.newLatLng(bangalore));
+        }
+        if (company_name.equals("Writer's Side")) {
+            LatLng bangalore = new LatLng(12.865551 , 77.657228);
+            googleMap.addMarker(new MarkerOptions().position(bangalore)
+                    .title("Bangalore Office"));
+
+            LatLng hyderabad = new LatLng(17.436394   , 78.348016);
+            googleMap.addMarker(new MarkerOptions().position(hyderabad)
+                    .title("Hyderabad Office"));
+
+            LatLng mangalore = new LatLng(12.904781 , 74.836354);
+            googleMap.addMarker(new MarkerOptions().position(mangalore)
+                    .title("Mangalore Office"));
+
+            LatLng mysore = new LatLng(12.360039 , 76.592899);
+            googleMap.addMarker(new MarkerOptions().position(mysore)
+                    .title("Myosre Office"));
+
+            LatLng kerala = new LatLng(8.533547 , 76.883487);
+            googleMap.addMarker(new MarkerOptions().position(kerala)
+                    .title("Kerala Office"));
+
+            LatLng chennai = new LatLng(12.888226 , 80.227345);
+            googleMap.addMarker(new MarkerOptions().position(chennai)
+                    .title("Chennai Office"));
+            googleMap.setMinZoomPreference(5.0f);
+            googleMap.moveCamera(CameraUpdateFactory.newLatLng(bangalore));
+        }
+        if (company_name.equals("Penguin Books")) {
+            LatLng bangalore = new LatLng(12.865551 , 77.657228);
+            googleMap.addMarker(new MarkerOptions().position(bangalore)
+                    .title("Bangalore Office"));
+
+            LatLng hyderabad = new LatLng(17.436394   , 78.348016);
+            googleMap.addMarker(new MarkerOptions().position(hyderabad)
+                    .title("Hyderabad Office"));
+
+            LatLng mangalore = new LatLng(12.904781 , 74.836354);
+            googleMap.addMarker(new MarkerOptions().position(mangalore)
+                    .title("Mangalore Office"));
+
+            LatLng mysore = new LatLng(12.360039 , 76.592899);
+            googleMap.addMarker(new MarkerOptions().position(mysore)
+                    .title("Myosre Office"));
+
+            LatLng kerala = new LatLng(8.533547 , 76.883487);
+            googleMap.addMarker(new MarkerOptions().position(kerala)
+                    .title("Kerala Office"));
+
+            LatLng chennai = new LatLng(12.888226 , 80.227345);
+            googleMap.addMarker(new MarkerOptions().position(chennai)
+                    .title("Chennai Office"));
+            googleMap.setMinZoomPreference(5.0f);
+            googleMap.moveCamera(CameraUpdateFactory.newLatLng(bangalore));
+        }
+        if (company_name.equals("Purple Folio")) {
+            LatLng bangalore = new LatLng(12.865551 , 77.657228);
+            googleMap.addMarker(new MarkerOptions().position(bangalore)
+                    .title("Bangalore Office"));
+
+            LatLng hyderabad = new LatLng(17.436394   , 78.348016);
+            googleMap.addMarker(new MarkerOptions().position(hyderabad)
+                    .title("Hyderabad Office"));
+
+            LatLng mangalore = new LatLng(12.904781 , 74.836354);
+            googleMap.addMarker(new MarkerOptions().position(mangalore)
+                    .title("Mangalore Office"));
+
+            LatLng mysore = new LatLng(12.360039 , 76.592899);
+            googleMap.addMarker(new MarkerOptions().position(mysore)
+                    .title("Myosre Office"));
+
+            LatLng kerala = new LatLng(8.533547 , 76.883487);
+            googleMap.addMarker(new MarkerOptions().position(kerala)
+                    .title("Kerala Office"));
+
+            LatLng chennai = new LatLng(12.888226 , 80.227345);
+            googleMap.addMarker(new MarkerOptions().position(chennai)
+                    .title("Chennai Office"));
+            googleMap.setMinZoomPreference(5.0f);
+            googleMap.moveCamera(CameraUpdateFactory.newLatLng(bangalore));
+        }
+        if (company_name.equals("Rallies India Limited")) {
+            LatLng bangalore = new LatLng(12.865551 , 77.657228);
+            googleMap.addMarker(new MarkerOptions().position(bangalore)
+                    .title("Bangalore Office"));
+
+            LatLng hyderabad = new LatLng(17.436394   , 78.348016);
+            googleMap.addMarker(new MarkerOptions().position(hyderabad)
+                    .title("Hyderabad Office"));
+
+            LatLng mangalore = new LatLng(12.904781 , 74.836354);
+            googleMap.addMarker(new MarkerOptions().position(mangalore)
+                    .title("Mangalore Office"));
+
+            LatLng mysore = new LatLng(12.360039 , 76.592899);
+            googleMap.addMarker(new MarkerOptions().position(mysore)
+                    .title("Myosre Office"));
+
+            LatLng kerala = new LatLng(8.533547 , 76.883487);
+            googleMap.addMarker(new MarkerOptions().position(kerala)
+                    .title("Kerala Office"));
+
+            LatLng chennai = new LatLng(12.888226 , 80.227345);
+            googleMap.addMarker(new MarkerOptions().position(chennai)
+                    .title("Chennai Office"));
+            googleMap.setMinZoomPreference(5.0f);
+            googleMap.moveCamera(CameraUpdateFactory.newLatLng(bangalore));
+        }
+        if (company_name.equals("Nuziveedu Seeds Limited")) {
+            LatLng bangalore = new LatLng(12.865551 , 77.657228);
+            googleMap.addMarker(new MarkerOptions().position(bangalore)
+                    .title("Bangalore Office"));
+
+            LatLng hyderabad = new LatLng(17.436394   , 78.348016);
+            googleMap.addMarker(new MarkerOptions().position(hyderabad)
+                    .title("Hyderabad Office"));
+
+            LatLng mangalore = new LatLng(12.904781 , 74.836354);
+            googleMap.addMarker(new MarkerOptions().position(mangalore)
+                    .title("Mangalore Office"));
+
+            LatLng mysore = new LatLng(12.360039 , 76.592899);
+            googleMap.addMarker(new MarkerOptions().position(mysore)
+                    .title("Myosre Office"));
+
+            LatLng kerala = new LatLng(8.533547 , 76.883487);
+            googleMap.addMarker(new MarkerOptions().position(kerala)
+                    .title("Kerala Office"));
+
+            LatLng chennai = new LatLng(12.888226 , 80.227345);
+            googleMap.addMarker(new MarkerOptions().position(chennai)
+                    .title("Chennai Office"));
+            googleMap.setMinZoomPreference(5.0f);
+            googleMap.moveCamera(CameraUpdateFactory.newLatLng(bangalore));
+        }
+        if (company_name.equals("Lemken India Agro Equipments Private Limited")) {
+            LatLng bangalore = new LatLng(12.865551 , 77.657228);
+            googleMap.addMarker(new MarkerOptions().position(bangalore)
+                    .title("Bangalore Office"));
+
+            LatLng hyderabad = new LatLng(17.436394   , 78.348016);
+            googleMap.addMarker(new MarkerOptions().position(hyderabad)
+                    .title("Hyderabad Office"));
+
+            LatLng mangalore = new LatLng(12.904781 , 74.836354);
+            googleMap.addMarker(new MarkerOptions().position(mangalore)
+                    .title("Mangalore Office"));
+
+            LatLng mysore = new LatLng(12.360039 , 76.592899);
+            googleMap.addMarker(new MarkerOptions().position(mysore)
+                    .title("Myosre Office"));
+
+            LatLng kerala = new LatLng(8.533547 , 76.883487);
+            googleMap.addMarker(new MarkerOptions().position(kerala)
+                    .title("Kerala Office"));
+
+            LatLng chennai = new LatLng(12.888226 , 80.227345);
+            googleMap.addMarker(new MarkerOptions().position(chennai)
+                    .title("Chennai Office"));
+            googleMap.setMinZoomPreference(5.0f);
+            googleMap.moveCamera(CameraUpdateFactory.newLatLng(bangalore));
+        }
+        if (company_name.equals("Advanta Limited")) {
+            LatLng bangalore = new LatLng(12.865551 , 77.657228);
+            googleMap.addMarker(new MarkerOptions().position(bangalore)
+                    .title("Bangalore Office"));
+
+            LatLng hyderabad = new LatLng(17.436394   , 78.348016);
+            googleMap.addMarker(new MarkerOptions().position(hyderabad)
+                    .title("Hyderabad Office"));
+
+            LatLng mangalore = new LatLng(12.904781 , 74.836354);
+            googleMap.addMarker(new MarkerOptions().position(mangalore)
+                    .title("Mangalore Office"));
+
+            LatLng mysore = new LatLng(12.360039 , 76.592899);
+            googleMap.addMarker(new MarkerOptions().position(mysore)
+                    .title("Myosre Office"));
+
+            LatLng kerala = new LatLng(8.533547 , 76.883487);
+            googleMap.addMarker(new MarkerOptions().position(kerala)
+                    .title("Kerala Office"));
+
+            LatLng chennai = new LatLng(12.888226 , 80.227345);
+            googleMap.addMarker(new MarkerOptions().position(chennai)
+                    .title("Chennai Office"));
+            googleMap.setMinZoomPreference(5.0f);
+            googleMap.moveCamera(CameraUpdateFactory.newLatLng(bangalore));
+        }
+        if (company_name.equals("Monsanto India")) {
+            LatLng bangalore = new LatLng(12.865551 , 77.657228);
+            googleMap.addMarker(new MarkerOptions().position(bangalore)
+                    .title("Bangalore Office"));
+
+            LatLng hyderabad = new LatLng(17.436394   , 78.348016);
+            googleMap.addMarker(new MarkerOptions().position(hyderabad)
+                    .title("Hyderabad Office"));
+
+            LatLng mangalore = new LatLng(12.904781 , 74.836354);
+            googleMap.addMarker(new MarkerOptions().position(mangalore)
+                    .title("Mangalore Office"));
+
+            LatLng mysore = new LatLng(12.360039 , 76.592899);
+            googleMap.addMarker(new MarkerOptions().position(mysore)
+                    .title("Myosre Office"));
+
+            LatLng kerala = new LatLng(8.533547 , 76.883487);
+            googleMap.addMarker(new MarkerOptions().position(kerala)
+                    .title("Kerala Office"));
+
+            LatLng chennai = new LatLng(12.888226 , 80.227345);
+            googleMap.addMarker(new MarkerOptions().position(chennai)
+                    .title("Chennai Office"));
+            googleMap.setMinZoomPreference(5.0f);
+            googleMap.moveCamera(CameraUpdateFactory.newLatLng(bangalore));
+        }
 
     }
 }

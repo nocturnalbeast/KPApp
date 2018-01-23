@@ -19,4 +19,5 @@ public class ServerResponse {
     public User getUser() {
         return user;
     }
+
 }

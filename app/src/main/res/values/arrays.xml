@@ -36,7 +36,7 @@
     <string-array name="literature_companies">
         <item>Malayala Manorama</item>
         <item>Puffin Books</item>
-        <item>Writer's Side</item>
+        <item>Writer\'s Side</item>
         <item>Penguin Books</item>
         <item>Purple Folio</item>
     </string-array>
@@ -111,6 +111,353 @@
         <item>M.Sc(Farming)</item>
         <item>MA(Eng.)</item>
         <item>M.Ed</item>
+    </string-array>
+
+    <string-array name="jobs_farming">
+        <item>Market news reporter</item>
+        <item>Farm news reporter</item>
+        <item>Public relations representative</item>
+        <item>Advertising specialist</item>
+        <item>Marketing communications manager</item>
+        <item>Regional sales manager</item>
+        <item>Account manager</item>
+        <item>Grain broker</item>
+        <item>Farm and land appraiser</item>
+        <item>Resource economist consultant</item>
+        <item>Agricultural policy analyst</item>
+        <item>Insurance agent</item>
+        <item>Food distribution manager</item>
+        <item>Agricultural lender</item>
+        <item>Education specialist</item>
+        <item>Education supervisor</item>
+        <item>Farm management</item>
+        <item>Soil conservationist</item>
+        <item>Extension advisor</item>
+        <item>Structural engineer</item>
+        <item>Irrigation engineer</item>
+        <item>Sanitary/waste handling</item>
+        <item>Food engineer</item>
+        <item>Bioprocessing engineer</item>
+        <item>Machine design engineer</item>
+        <item>Crop specialist</item>
+        <item>Soil scientist</item>
+        <item>Fertilizer sales representative</item>
+        <item>Plant breeder</item>
+        <item>Plant geneticist</item>
+        <item>Soil conservationist</item>
+        <item>Soil surveyor</item>
+        <item>Farm supply representative</item>
+        <item>Livestock production manager</item>
+        <item>Feed sales/management</item>
+        <item>Livestock procurement</item>
+        <item>Livestock insurance representative</item>
+        <item>Veterinarian</item>
+        <item>Farm management</item>
+        <item>Stable management</item>
+        <item>Livestock feedlot operator</item>
+        <item>Ranch/farm hand</item>
+        <item>Animal scientist</item>
+        <item>Animal geneticist</item>
+        <item>Food product research and development</item>
+        <item>Quality assurance</item>
+        <item>Food chemist</item>
+        <item>Food microbiologist</item>
+        <item>Food manufacturing</item>
+        <item>Food researcher</item>
+    </string-array>
+
+    <string-array name="jobs_literature">
+        <item>Advertising Copywriter</item>
+        <item>Advertising Writer</item>
+        <item>Ad Writer</item>
+        <item>Author</item>
+        <item>Biographer</item>
+        <item>Copywriter</item>
+        <item>Crossword Puzzle Maker</item>
+        <item>Designer And Script Writer</item>
+        <item>Dialogue Writer</item>
+        <item>Dubbing Dialogue Writer</item>
+        <item>Essayist</item>
+        <item>Feature Writer</item>
+        <item>Fiction Writer</item>
+        <item>Game, Cd-Rom Or Web Critic</item>
+        <item>Ghost Writer</item>
+        <item>Handbook Writer</item>
+        <item>Help File Developer</item>
+        <item>Humorist-Author</item>
+        <item>Interactive Media Writer</item>
+        <item>Lexicographer</item>
+        <item>Literary Writer</item>
+        <item>Manual Writer</item>
+        <item>Medical Writer</item>
+        <item>Multimedia Author</item>
+        <item>Multimedia Script Writer</item>
+        <item>Multimedia Writer</item>
+        <item>New Media Writer</item>
+        <item>Novelist</item>
+        <item>On-Line Reference Developer</item>
+        <item>Playwright</item>
+        <item>Poet</item>
+        <item>Programmed-Instruction Writer</item>
+        <item>Publicity Writer</item>
+        <item>Radio Writer</item>
+        <item>Rewriter</item>
+        <item>Scientific Writer</item>
+        <item>Screen Writer</item>
+        <item>Script And Dialogue Writer</item>
+        <item>Script Writer</item>
+        <item>Self-Instruction Manual Writer</item>
+        <item>Serial Story Writer</item>
+        <item>Serial Writer</item>
+        <item>Short Story Writer</item>
+        <item>Specifications Writer</item>
+        <item>Specifications Writer (Except Construction)</item>
+        <item>Speech Writer</item>
+        <item>Sports Writer - Novels And Books</item>
+        <item>Standards Writer</item>
+        <item>Storyboarder</item>
+        <item>Support Materials Writer</item>
+        <item>Technical Writer</item>
+        <item>Technical Writer - Aeronautics</item>
+        <item>Technical Writer - Chemical Processing</item>
+        <item>Technical Writer - Electronics Equipment</item>
+        <item>Technical Writer - Pharmaceutical Industry</item>
+        <item>Teleplay Writer, Screenwriter</item>
+        <item>Television Writer</item>
+    </string-array>
+
+    <string-array name="jobs_it">
+        <item>Application Developer</item>
+        <item>Application Support Analyst</item>
+        <item>Applications Engineer</item>
+        <item>Associate Developer</item>
+        <item>Chief Information Officer (CIO) </item>
+        <item>Chief Technology Officer (CTO) </item>
+        <item>Cloud Architect</item>
+        <item>Cloud Consultant</item>
+        <item>Cloud Product and Project Manager</item>
+        <item>Cloud Services Developer</item>
+        <item>Cloud Software and Network Engineer</item>
+        <item>Cloud System Administrator</item>
+        <item>Cloud System Engineer</item>
+        <item>Computer and Information Research Scientist</item>
+        <item>Computer and Information Systems Manager</item>
+        <item>Computer Network Architect</item>
+        <item>Computer Programmer</item>
+        <item>Computer Systems Analyst</item>
+        <item>Computer Systems Manager</item>
+        <item>Customer Support Administrator</item>
+        <item>Customer Support Specialist</item>
+        <item>Data Center Support Specialist</item>
+        <item>Data Quality Manager</item>
+        <item>Database Administrator</item>
+        <item>Desktop Support Manager</item>
+        <item>Desktop Support Specialist</item>
+        <item>Developer</item>
+        <item>Director of Technology</item>
+        <item>Front End Developer</item>
+        <item>Help Desk Specialist</item>
+        <item>Help Desk Technician</item>
+        <item>IT Analyst</item>
+        <item>IT Coordinator</item>
+        <item>IT Director</item>
+        <item>IT Manager</item>
+        <item>IT Support Manager</item>
+        <item>IT Support Specialist</item>
+        <item>IT Systems Administrator</item>
+        <item>Java Developer</item>
+        <item>Junior Software Engineer</item>
+        <item>Management Information Systems Director</item>
+        <item>.NET Developer</item>
+        <item>Network Administrator</item>
+        <item>Network Architect</item>
+        <item>Network and Computer Systems Administrator</item>
+        <item>Network Engineer</item>
+        <item>Network Systems Administrator</item>
+        <item>Programmer</item>
+        <item>Programmer Analyst</item>
+        <item>Security Specialist</item>
+        <item>Senior Applications Engineer</item>
+        <item>Senior Database Administrator</item>
+        <item>Senior Network Architect</item>
+        <item>Senior Network Engineer</item>
+        <item>Senior Network System Administrator</item>
+        <item>Senior Programmer</item>
+        <item>Senior Programmer Analyst</item>
+        <item>Senior Security Specialist</item>
+        <item>Senior Software Engineer</item>
+        <item>Senior Support Specialist</item>
+        <item>Senior System Administrator</item>
+        <item>Senior System Analyst</item>
+        <item>Senior System Architect</item>
+        <item>Senior System Designer</item>
+        <item>Senior Systems Analyst</item>
+        <item>Senior Systems Software Engineer</item>
+        <item>Senior Web Administrator</item>
+        <item>Senior Web Developer</item>
+        <item>Software Architect</item>
+        <item>Software Developer</item>
+        <item>Software Engineer</item>
+        <item>Software Quality Assurance Analyst</item>
+        <item>Support Specialist</item>
+        <item>System Architect</item>
+        <item>Systems Administrator</item>
+        <item>Systems Analyst</item>
+        <item>Systems Designer</item>
+        <item>Systems Software Engineer​</item>
+        <item>Technical Operations Officer</item>
+        <item>Technical Specialist</item>
+        <item>Technical Support Engineer</item>
+        <item>Technical Support Specialist</item>
+        <item>Telecommunications Specialist</item>
+        <item>Web Administrator</item>
+        <item>Web Developer</item>
+        <item>Webmaster</item>
+    </string-array>
+
+    <string-array name="jobs_accounting">
+        <item>Accountant</item>
+        <item>Accounting Clerk</item>
+        <item>Accounting Clerk Leader</item>
+        <item>Accounting Director</item>
+        <item>Accounting Manager</item>
+        <item>Accounting Supervisor</item>
+        <item>Accounting Vice President</item>
+        <item>Accounts Supervisor</item>
+        <item>Assistant Director of Finance</item>
+        <item>Assistant Director of Financial Operations</item>
+        <item>Audit Supervisor</item>
+        <item>Auditor</item>
+        <item>Bookkeeper</item>
+        <item>Budget Analyst</item>
+        <item>Budget Manager</item>
+        <item>Bursar</item>
+        <item>Certified Public Accountant</item>
+        <item>Chief Accounting Officer</item>
+        <item>Chief Financial Officer</item>
+        <item>Compliance Auditor</item>
+        <item>Comptroller</item>
+        <item>Contracts and Financial Compliance Manager</item>
+        <item>Controller</item>
+        <item>Corporate Accountant</item>
+        <item>Cost Accountant</item>
+        <item>Credit Analyst</item>
+        <item>Director of Financial Operations</item>
+        <item>Environmental Auditor</item>
+        <item>External Auditor</item>
+        <item>Financial Analyst</item>
+        <item>Financial Assurance Manager</item>
+        <item>Financial Assurance Specialist</item>
+        <item>Forensic Accountant</item>
+        <item>Gift Administration Specialist</item>
+        <item>Gift Assurance Officer</item>
+        <item>Government Accountant</item>
+        <item>Government Auditor</item>
+        <item>Grants and Contracts Assistant</item>
+        <item>Grants and Contracts Specialist</item>
+        <item>Industrial Accountant</item>
+        <item>Information Technology Audit Manager</item>
+        <item>Information Technology Auditor</item>
+        <item>Internal Auditor</item>
+        <item>Management Accountant</item>
+        <item>Managerial Accountant</item>
+        <item>Payroll Manager</item>
+        <item>Payroll Services Analyst</item>
+        <item>Private Accountant</item>
+        <item>Public Accountant</item>
+        <item>Revenue Cycle Administrator</item>
+        <item>Revenue Cycle Manager</item>
+        <item>Revenue Cycle Supervisor</item>
+        <item>Senior Auditor</item>
+        <item>Senior Budget Analyst</item>
+        <item>Senior Cash Management Analyst</item>
+        <item>Senior Financial Analyst</item>
+        <item>Senior General Audit Manager</item>
+        <item>Senior Gift Assurance Officer</item>
+        <item>Senior Grants and Contracts Specialist</item>
+        <item>Senior Strategic Planner</item>
+        <item>Staff Accountant</item>
+        <item>Staff Auditor</item>
+        <item>Strategic Planner</item>
+        <item>Strategic Planning and Institutional Analysis Manager</item>
+        <item>Strategic Program Planning Advisor</item>
+        <item>Tax Accountant</item>
+        <item>Tax Specialist</item>
+    </string-array>
+
+    <string-array name="jobs_teaching">
+        <item>Academic Advisor</item>
+        <item>Academic Support Coordinator</item>
+        <item>Administrator</item>
+        <item>Admissions Assistant</item>
+        <item>Admissions Representative</item>
+        <item>Adjunct Professor</item>
+        <item>Advisor</item>
+        <item>After School Program Aide</item>
+        <item>After School Program Coordinator</item>
+        <item>Assistant Coach</item>
+        <item>Assistant Dean</item>
+        <item>Assistant Instructor</item>
+        <item>Assistant Principal</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Preschool Teacher</item>
+        <item>Assistant Registrar</item>
+        <item>Assistant Teacher</item>
+        <item>Associate Dean</item>
+        <item>Associate Professor</item>
+        <item>Career Counselor</item>
+        <item>Child Care Assistant</item>
+        <item>Child Care Center Teacher</item>
+        <item>Coach</item>
+        <item>Crossing Guard</item>
+        <item>Day Care Assistant</item>
+        <item>Day Care Center Teacher</item>
+        <item>Dean</item>
+        <item>Driver Education Teacher</item>
+        <item>Education Coordinator</item>
+        <item>Education Specialist</item>
+        <item>Education Technician</item>
+        <item>Educator</item>
+        <item>Financial Aid Administrator</item>
+        <item>Food Service Aide</item>
+        <item>Food Service Coordinator</item>
+        <item>Food Service Manager</item>
+        <item>Guidance Counselor</item>
+        <item>Instructor</item>
+        <item>Instructional Assistant</item>
+        <item>Lead Teacher</item>
+        <item>Lunch Monitor</item>
+        <item>Preschool Assistant Teacher</item>
+        <item>Preschool Director</item>
+        <item>Preschool Group Leader</item>
+        <item>Preschool Specialist</item>
+        <item>Preschool Teacher</item>
+        <item>Preschool Lead Teacher</item>
+        <item>Principal</item>
+        <item>Program Assistant</item>
+        <item>Program Coordinator</item>
+        <item>Residence Hall Manager</item>
+        <item>Resource Development Coordinator</item>
+        <item>School Administrator</item>
+        <item>School Bus Driver</item>
+        <item>School Counselor</item>
+        <item>School Librarian</item>
+        <item>School Nurse</item>
+        <item>School Psychologist</item>
+        <item>School Secretary</item>
+        <item>School Social Worker</item>
+        <item>Special Education Assistant</item>
+        <item>Special Education Coordinator</item>
+        <item>Substitute Teacher</item>
+        <item>Superintendent</item>
+        <item>Superintendent of Schools</item>
+        <item>Teacher</item>
+        <item>Teacher Aide</item>
+        <item>Teacher Assistant</item>
+        <item>Teaching Assistant</item>
+        <item>Tutor</item>
+        <item>Registrar</item>
+        <item>Youth Care Worker</item>
     </string-array>
 
 </resources>
